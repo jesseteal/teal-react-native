@@ -1,0 +1,16 @@
+{
+  "name": "@jesseteal/teal-react-native",
+  "version": "1.0.0",
+  "description": "A bundle of reusable React Native files for re-use in projects.",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Teal",
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "geolib": "^3.3.1"
+  }
+}
