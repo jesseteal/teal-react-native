@@ -1,6 +1,15 @@
 import React from 'react';
 import { AppState } from 'react-native';
 
+/*
+usage:
+import { Hooks } from '@jesseteal/teal-react-native/hooks'
+...
+Hooks.useAppState({
+  onForeground: () => { ... },
+  onBackground: () => { ... }
+})
+*/
 export const useAppState = (settings) => {
   const { onChange, onForeground, onBackground } = settings || {};
   const [appState, setAppState] = React.useState(AppState.currentState);
